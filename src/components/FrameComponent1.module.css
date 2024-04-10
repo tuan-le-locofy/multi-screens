@@ -1,0 +1,38 @@
+.prepareForYour {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-lightgray);
+}
+.flightMainContainerParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flightMainContainerParent {
+  width: 1280px;
+  flex-direction: column;
+  gap: var(--gap-17xl);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 725px) {
+  .flightMainContainerParent {
+    gap: 18px 36px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .flightMainContainerParent {
+    gap: 18px 36px;
+  }
+}

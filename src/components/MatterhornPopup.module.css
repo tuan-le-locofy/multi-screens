@@ -1,0 +1,55 @@
+.videoThumbnailIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.thumbnailHolder,
+.videoBorder,
+.videoThumbnailIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.videoBorder {
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.thumbnailHolder {
+  margin: 0 !important;
+}
+.playIcon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  z-index: 2;
+}
+.matterhornPopup,
+.video {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.video {
+  flex: 1;
+  justify-content: center;
+  padding: 240px var(--padding-xl);
+  position: relative;
+}
+.matterhornPopup {
+  width: 900px;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-contrast);
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  line-height: normal;
+  letter-spacing: normal;
+  max-height: 100%;
+  overflow: auto;
+}

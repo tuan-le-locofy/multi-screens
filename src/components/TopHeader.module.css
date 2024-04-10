@@ -1,0 +1,171 @@
+.symbolsIcon {
+  position: absolute;
+  height: 96.97%;
+  width: 99.83%;
+  top: 1.52%;
+  right: 0.17%;
+  bottom: 1.52%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fickleflightLogo {
+  align-self: stretch;
+  height: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fickleflightLogoWrapper {
+  width: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.hamburgerMenuIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.explore {
+  position: relative;
+  display: inline-block;
+  min-width: 47px;
+}
+.exploreWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  color: var(--color-cornflowerblue-200);
+}
+.search {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  cursor: pointer;
+}
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.hotels {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+  cursor: pointer;
+}
+.hotelsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.offers {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.offersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-7xs) 0 0;
+}
+.notificationBellIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.notificationBellWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.profilePictureIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: var(--br-19xl);
+  object-fit: cover;
+}
+.frameGroup,
+.frameParent {
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.frameParent {
+  width: 368px;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.topContainer,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.topContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.topHeader {
+  align-self: stretch;
+  background-color: var(--primary-contrast);
+  justify-content: flex-start;
+  padding: var(--padding-xl-5) var(--padding-61xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 725px) {
+  .frameParent {
+    display: none;
+  }
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 560px) {
+  .frameParent {
+    display: none;
+  }
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

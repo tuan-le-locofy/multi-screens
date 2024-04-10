@@ -1,0 +1,249 @@
+.hotelIcon {
+  width: 65.4px;
+  height: 65.4px;
+  position: relative;
+}
+.hotel {
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  min-width: 39px;
+}
+.hotelIconParent,
+.hotelWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hotelWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm-2);
+}
+.hotelIconParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+}
+.background {
+  height: 65.4px;
+  width: 65.4px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-sandybrown);
+  display: none;
+}
+.ticketIcon {
+  height: 31.3px;
+  width: 31.6px;
+  position: relative;
+  z-index: 1;
+}
+.attractionsIcon,
+.attractionsIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.attractionsIcon {
+  border-radius: var(--br-base);
+  background-color: var(--color-sandybrown);
+  padding: var(--padding-mid) var(--padding-base-8) var(--padding-mid-1);
+}
+.attractionsIconWrapper {
+  padding: 0 var(--padding-6xs) 0 var(--padding-5xs-3);
+}
+.attractions1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  min-width: 80px;
+}
+.attractions {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.eats,
+.eatsIcon {
+  position: relative;
+}
+.eatsIcon {
+  width: 65.4px;
+  height: 65.4px;
+}
+.eats {
+  width: 32px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  min-width: 32px;
+}
+.eatsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base-7) 0 var(--padding-mid);
+}
+.eatsIconParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.background1 {
+  height: 65.4px;
+  width: 65.4px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-gold);
+  display: none;
+}
+.trainIcon {
+  height: 31.7px;
+  width: 26.9px;
+  position: relative;
+  z-index: 1;
+}
+.commuteIcon,
+.commuteIconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.commuteIcon {
+  border-radius: var(--br-base);
+  background-color: var(--color-gold);
+  padding: var(--padding-mid-3) var(--padding-lgi-2) var(--padding-base-4);
+}
+.commuteIconWrapper {
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs-3);
+}
+.commute {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  min-width: 70px;
+}
+.frameParent {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.background2 {
+  height: 65.4px;
+  width: 70px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-cornflowerblue-100);
+  display: none;
+}
+.taxiIcon1 {
+  height: 26.3px;
+  width: 28.4px;
+  position: relative;
+  z-index: 1;
+}
+.taxiIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi-4) var(--padding-xl-7) var(--padding-lgi-7)
+    var(--padding-xl-9);
+  background-color: var(--color-cornflowerblue-100);
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.taxi {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  min-width: 32.1px;
+}
+.taxiWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg-9) 0 var(--padding-lgi);
+}
+.taxiIconParent {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.background3 {
+  height: 65.4px;
+  width: 65.4px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-yellowgreen);
+  display: none;
+}
+.movieIcon {
+  height: 23.3px;
+  width: 26.1px;
+  position: relative;
+  z-index: 1;
+}
+.moviesIcon {
+  border-radius: var(--br-base);
+  background-color: var(--color-yellowgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl-1) var(--padding-lgi-6) var(--padding-2xl)
+    var(--padding-lgi-7);
+}
+.movies {
+  width: 52px;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  min-width: 52px;
+}
+.moviesIconParent,
+.moviesWrapper,
+.tripMenus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moviesWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) 0 var(--padding-6xs-7);
+}
+.moviesIconParent,
+.tripMenus {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.tripMenus {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--components-button-large-size);
+  color: var(--color-gray-100);
+  font-family: var(--components-button-large);
+}

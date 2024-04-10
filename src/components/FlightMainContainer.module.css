@@ -1,0 +1,97 @@
+.durationIcon,
+.sin {
+  position: relative;
+  flex-shrink: 0;
+}
+.sin {
+  margin: 0;
+  width: 44.7px;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.durationIcon {
+  align-self: stretch;
+  height: 24px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.dataAggregator {
+  width: 117.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.lax {
+  margin: 0;
+  width: 51.3px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.toAndFrom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.departOn7Container {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.container,
+.flightMainContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.flightMainContainer {
+  width: 632.5px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-lgi);
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 450px) {
+  .lax,
+  .sin {
+    font-size: var(--font-size-lgi);
+  }
+  .toAndFrom {
+    flex-wrap: wrap;
+  }
+  .departOn7Container {
+    font-size: var(--components-input-text-size);
+  }
+}

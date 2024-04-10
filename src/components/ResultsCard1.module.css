@@ -1,0 +1,204 @@
+.resultsImageIcon {
+  height: 220px;
+  width: 260px;
+  position: relative;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  object-fit: cover;
+}
+.kingBedStandard {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.videoIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.kingBedStandardParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.holidayInnExpre {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.vectorIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.registrationInputBoxes,
+.reviews {
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.registrationInputBoxes {
+  font-weight: 500;
+  min-width: 25px;
+}
+.reviews {
+  color: var(--color-cornflowerblue-200);
+  min-width: 117.9px;
+}
+.frameGroup,
+.headerBannerContainer,
+.holidayInnExpreParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headerBannerContainer {
+  flex-direction: row;
+  gap: var(--gap-5xs-5);
+  font-size: var(--components-input-text-size);
+}
+.frameGroup,
+.holidayInnExpreParent {
+  flex-direction: column;
+}
+.holidayInnExpreParent {
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-300);
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-12xs);
+}
+.night,
+.s286 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.s286 {
+  text-transform: capitalize;
+  min-width: 73px;
+}
+.night {
+  min-width: 39px;
+}
+.s286Parent,
+.topContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topContainer {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  font-size: var(--font-size-sm);
+}
+.s286Parent {
+  flex-direction: row;
+}
+.viewDetailsButtonChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-cornflowerblue-200);
+}
+.searchFlights {
+  width: 109px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--primary-contrast);
+  text-align: center;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 1;
+}
+.viewDetailsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi-5) var(--padding-8xl);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  white-space: nowrap;
+}
+.contactDetailsRegistration {
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xs-6);
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-300);
+}
+.contactDetailsRegistration,
+.frameParent,
+.resultsCardInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.resultsCardInner {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mini-4);
+  box-sizing: border-box;
+  min-width: 178px;
+}
+.resultsCard {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) var(--padding-12xs-6) 0;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--components-input-text-size);
+  color: var(--color-gray-100);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 750px) {
+  .resultsImageIcon {
+    flex: 1;
+  }
+  .resultsCard {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xs);
+    padding-top: var(--padding-12xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .holidayInnExpre,
+  .s286 {
+    font-size: var(--font-size-lg);
+  }
+  .frameParent {
+    gap: 15px 31px;
+  }
+}

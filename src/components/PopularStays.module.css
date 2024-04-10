@@ -1,0 +1,473 @@
+.popularStays1,
+.viewAllStays {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.popularStays1 {
+  margin: 0;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 159px;
+  max-width: 100%;
+}
+.viewAllStays {
+  font-weight: 500;
+}
+.arrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.viewAllStaysButton {
+  align-self: stretch;
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.containerDivider,
+.nestedList,
+.viewAllStaysButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.containerDivider {
+  width: 174.7px;
+  flex-direction: column;
+  padding: var(--padding-7xs-5) 0 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+}
+.nestedList {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.discoveryShoresImage {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.storyBeachfrontSuite {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.videoIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.storyBeachfrontSuiteParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  color: var(--color-gray-100);
+}
+.discoveryShores {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.discoveryShoresWrapper {
+  width: 234px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-3xl);
+}
+.night {
+  width: 234px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  height: 17.2px;
+  width: 16.6px;
+  position: relative;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 25px;
+}
+.reviews,
+.vectorParent {
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs-7);
+}
+.reviews {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-200);
+  display: inline-block;
+  min-width: 81px;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-3);
+}
+.button {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 109px;
+}
+.moreDetailsButton {
+  cursor: pointer;
+  border: 1px solid var(--color-lavender-200);
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.moreDetailsButton:hover {
+  background-color: var(--color-lightsteelblue-300);
+  border: 1px solid var(--color-lightsteelblue-200);
+  box-sizing: border-box;
+}
+.hotelCard,
+.hotelCard2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hotelCard {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke-200);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-xs);
+  gap: var(--gap-4xl);
+}
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-300);
+  cursor: pointer;
+}
+.hotelCard2 {
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+}
+.arcticHutImage {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.singleDeluxeHut {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.videoIcon1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.singleDeluxeHutParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  color: var(--color-gray-100);
+}
+.arcticHut,
+.night1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.arcticHut {
+  margin: 0;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.night1 {
+  font-size: var(--font-size-lg);
+}
+.arcticHutParent {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-3xl);
+}
+.vectorIcon1 {
+  height: 17.2px;
+  width: 16.7px;
+  position: relative;
+}
+.radioButtonRow {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 25px;
+}
+.rangeSliderSet,
+.reviews1 {
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.rangeSliderSet {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs-7);
+}
+.reviews1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-200);
+  display: inline-block;
+  min-width: 74px;
+}
+.rangeSliderSetParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  gap: var(--gap-3xs-3);
+}
+.button1 {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 109px;
+}
+.moreDetailsButton1 {
+  cursor: pointer;
+  border: 1px solid var(--color-lavender-200);
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.moreDetailsButton1:hover {
+  background-color: var(--color-lightsteelblue-300);
+  border: 1px solid var(--color-lightsteelblue-200);
+  box-sizing: border-box;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.frameContainer,
+.hotelCard1,
+.hotelCard3,
+.hotelCards {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hotelCard1 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-xs);
+  gap: var(--gap-4xl);
+}
+.hotelCard1:hover {
+  background-color: var(--color-gainsboro-300);
+  cursor: pointer;
+}
+.hotelCard3,
+.hotelCards {
+  flex-direction: row;
+}
+.hotelCard3 {
+  display: flex;
+  padding: 0 var(--padding-xs);
+}
+.hotelCards {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  font-size: var(--components-input-text-size);
+}
+.viewAllStays1 {
+  height: 21px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+}
+.arrowRightIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.mobileViewAllStays,
+.popularStays {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mobileViewAllStays {
+  width: 174.7px;
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+}
+.popularStays {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1050px) {
+  .hotelCards {
+    grid-row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(240px, 416px));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .popularStays1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .hotelCards {
+    grid-template-columns: minmax(240px, 1fr);
+  }
+}
+@media screen and (max-width: 560px) {
+  .hotelCards {
+    grid-template-columns: minmax(240px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoveryShores,
+  .popularStays1 {
+    font-size: var(--font-size-lg);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .arcticHut {
+    font-size: var(--font-size-lg);
+  }
+  .rangeSliderSetParent {
+    flex-wrap: wrap;
+  }
+}

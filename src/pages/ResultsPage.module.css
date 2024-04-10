@@ -1,0 +1,36 @@
+.resultsPage,
+.resultsPageInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultsPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) var(--padding-31xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.resultsPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-contrast);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .resultsPageInner {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .resultsPageInner {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

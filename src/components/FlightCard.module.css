@@ -1,0 +1,224 @@
+.siaIcon {
+  height: 46px;
+  width: 34.8px;
+  position: relative;
+}
+.singaporeAirlines {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 9.5px);
+  right: -20px;
+  letter-spacing: 0.26px;
+}
+.airlineSection,
+.airlineSectionWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.airlineSection {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-6xs);
+}
+.airlineSectionWrapper {
+  width: 155.8px;
+  flex-direction: column;
+  padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.am,
+.sin {
+  position: relative;
+}
+.am {
+  align-self: stretch;
+  letter-spacing: 0.32px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.sin {
+  width: 73.9px;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.26px;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+}
+.amParent,
+.flightDetailsSectionInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.flightDetailsSectionInner {
+  width: 93px;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.flighticon {
+  height: 15.1px;
+  width: 107.1px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.flighticonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs-7) 0 var(--padding-2xs);
+}
+.h55mNonStop {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.21px;
+  display: inline-block;
+  min-width: 129px;
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl-9);
+  min-width: 84px;
+  text-align: center;
+  font-size: var(--components-input-text-size);
+  color: var(--color-gray-100);
+}
+.am1,
+.sin1 {
+  position: relative;
+}
+.am1 {
+  align-self: stretch;
+  letter-spacing: 0.32px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.sin1 {
+  flex: 1;
+  letter-spacing: 0.26px;
+  flex-shrink: 0;
+}
+.sinWrapper {
+  width: 75.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--components-input-text-size);
+  color: var(--color-dimgray-100);
+}
+.amGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.flightDetailsSectionChild {
+  width: 91px;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+.flightDetailsSection,
+.flightDetailsSectionChild,
+.flightDetailsSectionWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flightDetailsSection {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs-1);
+}
+.flightDetailsSectionWrapper {
+  width: 331.2px;
+  flex-direction: column;
+  padding: var(--padding-3xl-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-2xl);
+  color: var(--color-cornflowerblue-200);
+}
+.frameChild,
+.s730 {
+  position: absolute;
+  left: 0;
+}
+.frameChild {
+  top: 0;
+  width: 1px;
+  height: 100px;
+}
+.s730 {
+  top: 36px;
+  letter-spacing: 0.34px;
+  display: inline-block;
+  width: 128px;
+  white-space: nowrap;
+}
+.vectorParent {
+  height: 100px;
+  width: 128px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-orange-100);
+}
+.flightCard {
+  border-radius: var(--br-7xs);
+  background-color: var(--primary-contrast);
+  border: 0.7px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-5xl);
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--components-input-text-size);
+  color: var(--color-dimgray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1050px) {
+  .flightCard {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .flightCard {
+    gap: 50px 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .am,
+  .am1 {
+    font-size: var(--font-size-mid);
+  }
+  .flightDetailsSection {
+    flex-wrap: wrap;
+  }
+  .s730 {
+    font-size: var(--font-size-lgi);
+  }
+}

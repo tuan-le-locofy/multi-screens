@@ -1,0 +1,205 @@
+.airlinelogoIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.singaporeAirlines {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 103px;
+}
+.airline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.price {
+  width: 47px;
+  position: relative;
+  font-size: var(--components-input-text-size);
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  text-align: right;
+  display: inline-block;
+  min-width: 47px;
+  white-space: nowrap;
+}
+.airlinePrice {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.depcode,
+.depname {
+  position: relative;
+  display: inline-block;
+}
+.depcode {
+  font-weight: 600;
+  min-width: 27px;
+}
+.depname {
+  font-size: var(--typography-caption-size);
+  color: var(--color-lightslategray);
+  min-width: 58px;
+}
+.departure {
+  width: 79.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+  flex: 0.8514;
+}
+.flightIcon {
+  height: 12px;
+  width: 47.8px;
+  position: relative;
+  flex-shrink: 0;
+}
+.arrcode,
+.arrname {
+  position: relative;
+  display: inline-block;
+}
+.arrcode {
+  font-weight: 600;
+  min-width: 33px;
+}
+.arrname {
+  align-self: stretch;
+  font-size: var(--typography-caption-size);
+  color: var(--color-lightslategray);
+  text-align: right;
+  min-width: 70px;
+}
+.arrival,
+.locations {
+  display: flex;
+  justify-content: flex-start;
+}
+.arrival {
+  width: 79.6px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-3xs-6);
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.locations {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-100);
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs);
+  gap: var(--gap-6xs);
+  font-size: var(--components-input-text-size);
+  color: var(--color-cornflowerblue-200);
+}
+.classIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.flightclass {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 53px;
+}
+.class {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl-5) 0 0;
+  gap: var(--gap-5xs);
+}
+.calenderIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.numpeople {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 47px;
+}
+.calenderParent,
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.calenderParent {
+  align-items: flex-start;
+  padding: 0 var(--padding-18xl-5) 0 0;
+  gap: var(--gap-5xs);
+}
+.details {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.expedia {
+  color: var(--color-royalblue);
+}
+.provider1,
+.timeago {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 109px;
+}
+.timeago {
+  font-weight: 600;
+  color: var(--color-orange-100);
+  min-width: 41px;
+}
+.bookingCard,
+.provider {
+  align-self: stretch;
+  display: flex;
+}
+.provider {
+  border-top: 1px solid var(--color-whitesmoke-200);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) 0 0;
+  gap: var(--gap-xl);
+}
+.bookingCard {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--typography-caption-size);
+  color: var(--color-lightslategray);
+  font-family: var(--font-inter);
+}

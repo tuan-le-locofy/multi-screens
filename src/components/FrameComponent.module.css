@@ -1,0 +1,506 @@
+.planYourNext {
+  width: 1048.6px;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 100%;
+}
+.mostPopularDestinations {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mostPopularDestinationsWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 682px;
+  max-width: 100%;
+}
+.viewAllDestinations {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.arrowRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.frameGroup,
+.planYourNextTripParent,
+.viewAllTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewAllTop {
+  width: 231.4px;
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+}
+.frameGroup,
+.planYourNextTripParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameGroup {
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin-top: -2px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-300);
+}
+.planYourNextTripParent {
+  flex-direction: column;
+}
+.parisimageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.from,
+.paris {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.paris {
+  flex: 1;
+  letter-spacing: 0.02em;
+  min-width: 37px;
+}
+.from {
+  width: 52.5px;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+  flex-shrink: 0;
+}
+.parisParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl-4);
+}
+.div {
+  margin-top: -2px;
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  min-width: 90.9px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.wrapper {
+  width: 90.9px;
+  height: 36px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-baloo-bhai);
+}
+.col1,
+.pariscard,
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.pariscard {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-smi-3) var(--padding-96xl);
+  position: relative;
+}
+.col1 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+}
+.greeceimageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.from1,
+.greece {
+  width: 163.5px;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.from1 {
+  width: 52.5px;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+  flex-shrink: 0;
+}
+.greeceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div1 {
+  margin-top: -2px;
+  width: 99px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  min-width: 99px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.container {
+  height: 36px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-baloo-bhai);
+}
+.col2,
+.container,
+.greececard {
+  display: flex;
+  justify-content: flex-start;
+}
+.greececard {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-smi-3) var(--padding-96xl);
+  position: relative;
+}
+.col2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+}
+.norwayimageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.from2,
+.norway {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.norway {
+  flex: 1;
+  letter-spacing: 0.02em;
+  min-width: 55px;
+}
+.from2 {
+  width: 52.5px;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+  flex-shrink: 0;
+}
+.norwayParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl-4);
+}
+.div2 {
+  margin-top: -2px;
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  min-width: 90.9px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame {
+  width: 90.9px;
+  height: 36px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-baloo-bhai);
+}
+.col3,
+.frame,
+.norwaycard {
+  display: flex;
+  justify-content: flex-start;
+}
+.norwaycard {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-smi-3) var(--padding-96xl);
+  position: relative;
+}
+.col3 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+}
+.tuscanyimageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.from3,
+.tuscany {
+  width: 162.8px;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: afebfb9;
+  z-index: 1;
+}
+.from3 {
+  width: 52.5px;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: right;
+}
+.tuscanyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div3 {
+  margin-top: -2px;
+  flex: 1;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  min-width: 100.6px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameDiv,
+.tuscanycard {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 100.6px;
+  height: 36px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-19xl);
+  font-family: var(--font-baloo-bhai);
+}
+.tuscanycard {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-smi-3) var(--padding-96xl);
+  position: relative;
+}
+.cardsContainer,
+.col4,
+.frameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.col4 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+}
+.cardsContainer,
+.frameParent {
+  align-self: stretch;
+}
+.cardsContainer {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  font-size: var(--font-size-xl);
+  color: var(--primary-contrast);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1050px) {
+  .cardsContainer {
+    grid-row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(240px, 416px));
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mostPopularDestinations {
+    font-size: var(--font-size-5xl);
+  }
+  .mostPopularDestinationsWrapper {
+    min-width: 100%;
+  }
+  .div,
+  .div1,
+  .div2,
+  .div3 {
+    font-size: var(--font-size-11xl);
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .cardsContainer {
+    grid-template-columns: minmax(240px, 1fr);
+  }
+}
+@media screen and (max-width: 560px) {
+  .cardsContainer {
+    grid-template-columns: minmax(240px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mostPopularDestinations {
+    font-size: var(--font-size-lg);
+  }
+  .paris {
+    font-size: var(--components-input-text-size);
+  }
+  .parisParent {
+    flex-wrap: wrap;
+    gap: 38.4px 19px;
+  }
+  .div {
+    font-size: var(--font-size-4xl);
+    line-height: 23px;
+  }
+  .greece {
+    font-size: var(--components-input-text-size);
+  }
+  .greeceParent {
+    flex-wrap: wrap;
+  }
+  .div1 {
+    font-size: var(--font-size-4xl);
+    line-height: 23px;
+  }
+  .norway {
+    font-size: var(--components-input-text-size);
+  }
+  .norwayParent {
+    flex-wrap: wrap;
+    gap: 38.4px 19px;
+  }
+  .div2 {
+    font-size: var(--font-size-4xl);
+    line-height: 23px;
+  }
+  .tuscany {
+    font-size: var(--components-input-text-size);
+  }
+  .tuscanyParent {
+    flex-wrap: wrap;
+  }
+  .div3 {
+    font-size: var(--font-size-4xl);
+    line-height: 23px;
+  }
+}
