@@ -90,7 +90,7 @@ const HotelsPage: FunctionComponent = () => {
             className={styles.bannerBackground}
             loading="lazy"
             alt=""
-            src="/banner-background@2x.png"
+            src="/banner-background1@2x.png"
           />
           <div className={styles.title}>
             <h1 className={styles.staysInLos}>Stays in Los Angeles</h1>
@@ -177,7 +177,7 @@ const HotelsPage: FunctionComponent = () => {
         <img
           className={styles.newsletterSectionBackground}
           alt=""
-          src="/newsletter-section-background@2x.png"
+          src="/newsletter-section-background1@2x.png"
         />
         <ShareYourTravelsForm
           arrowDropDown="pending_I6816:37361;6626:50985"
